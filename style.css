@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    max-width: 370px;
+}
+
+#conteudo{
+    background-color: rgb(255, 236, 247);
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+#modelo{
+    width: 47%;
+    margin-right: -173.5px;
+    z-index: 1;
+}
+#main{
+    width: 100%;
+}
+#foto{
+    margin-top: -36.5px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#foto img{
+    width: 100%;
+}
+#sub{
+    width: 50%;
+}
+
+/*logo*/
+
+#logo{
+    margin-top: -70px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#logo img{
+    width: 30%;
+    z-index: 2;
+}
+
+#arroba{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 500;
+    font-size: 16pt;
+}
+#bemvindo{
+    margin-top: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 300;
+    font-size: 12pt;
+}
+
+
+.local{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pe{
+    border-radius: 7px;
+    background-color: rgb(255, 0, 170);
+    width: 200px;
+    height: 26px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.local p{
+    font-family: "Work Sans", sans-serif;
+    color: white;
+    font-weight: 300;
+    font-size: 14pt;
+}
+
+.local:active{
+    position: relative;
+    top: 4px;
+}
+.loc{
+    background-color: rgb(184, 2, 123);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: -20px;
+    z-index: 2;
+}
+.fa-brands{
+    color: white;
+    font-size: 16pt;
+}
+.fa-solid{
+    color: white;
+    font-size: 14pt;
+}
+
+#mapa{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+#mapa iframe{
+    border-radius: 10px;
+    border-color: rgb(255, 0, 170);
+}
+
+#sep{
+    margin-bottom: 50px;
+}
+.banner-container {
+    position: relative;
+    width: 100%;
+    max-width: 240px; /* Ajuste conforme necessário */
+    margin: auto;
+    overflow: hidden;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(184, 2, 123);
+}
+
+/* Estilo para cada slide do banner */
+.banner-slide {
+    display: none;
+    width: 100%;
+    transition: 2s;
+}
+
+/* Estilo para as imagens dentro do slide */
+.banner-slide img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+footer img{
+    margin-top: -380px;
+    width: 100%;
+}

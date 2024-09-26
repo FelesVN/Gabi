@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="catalogo.css">
+    <link rel="icon" href="imagens/logo.png">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Catálogo</title>
+</head>
+
+<body>
+    <div id="conteudo">
+        <header>
+            <img id="modelo" src="imagens/modelo.png" alt="">
+            <img src="imagens/topo.png" alt="" id="main">
+        </header>
+        <div id="foto">
+            <img src="imagens/linha.png" alt="" id="sub">
+        </div>
+        <div id="logo">
+            <img src="imagens/logo.png" alt="">
+        </div>
+
+        <p id="arroba2">@gabi</p>
+        <p id="bemvindo2">Selecione os procedimentos!</p>
+
+        <div id="catalog">
+
+            <div class="produto">
+                <img src="imagens/f1.png" alt="">
+                <p>Acrigel</p>
+                <div class="select">
+                    <input type="checkbox" id="Acrigel" onchange="atualizarValor()"><span>selecionar</span>
+                </div>
+            </div>
+            <div class="produto">
+                <img src="imagens/f2.png" alt="">
+                <p>Fibra de vidro</p>
+                <div class="select">
+                    <input type="checkbox" id="Fibra" onchange="atualizarValor2()"><span>selecionar</span>
+                </div>
+            </div>
+            <div class="produto">
+                <img src="imagens/f3.png" alt="">
+                <p>Progressiva</p>
+                <div class="select">
+                    <input type="checkbox" id="Progressiva" onchange="atualizarValor3()"><span>selecionar</span>
+                </div>
+            </div>
+            <div class="produto">
+                <img src="imagens/f4.png" alt="">
+                <p>Brow lamination</p>
+                <div class="select">
+                    <input type="checkbox" id="Brow" onchange="atualizarValor4()"><span>selecionar</span>
+                </div>
+            </div>
+            <div class="produto">
+                <img src="imagens/f5.png" alt="">
+                <p>Botox</p>
+                <div class="select">
+                    <input type="checkbox" id="Botox" onchange="atualizarValor5()"><span>selecionar</span>
+                </div>
+            </div>
+            <div class="produto">
+                <img src="imagens/f6.png" alt="">
+                <p>Hidragloss</p>
+                <div class="select">
+                    <input type="checkbox" id="Hidragloss" onchange="atualizarValor6()"><span>selecionar</span>
+                </div>
+            </div>
+        </div>
+
+        <div id="itens"><p id="i1"></p></div>
+
+       <a href="" id="link">
+            <div class="local" id="whatsapp">
+                <div class="loc">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+                <div class="pe">
+                    <p>Fazer orçamento</p>
+                </div>
+            </div>
+        </a>
+
+        <div id="mapa">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3678.8657003744356!2d-43.29073882547487!3d-22.77036477935131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9971678bc074a9%3A0xfbdba819dc809b7f!2sStudio%20Dany%20Santos!5e0!3m2!1spt-BR!2sbr!4v1726411382808!5m2!1spt-BR!2sbr"
+                style="border:1;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+
+        <footer>
+            <img src="imagens/baixo.png" alt="">
+        </footer>
+    </div>
+
+
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
